@@ -7,7 +7,9 @@ import { PosterList } from "../src/components/PosterList";
 import { PosterCreate } from "../src/components/PosterCreate";
 import { PosterEdit } from "../src/components/PosterEdit";
 
+
 const dataProvider = jsonServerProvider("https://react-admin-app-taq6.onrender.com");
+
 
 const App = () => (
   <Admin dataProvider={dataProvider}>
